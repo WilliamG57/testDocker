@@ -1,5 +1,5 @@
 # Étape de build
-FROM eclipse-temurin:17-jdk as build
+FROM eclipse-temurin:17-jdk AS build
 
 # Installer Maven
 RUN apt-get update && \
